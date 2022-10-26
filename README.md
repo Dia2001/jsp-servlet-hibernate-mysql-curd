@@ -1,2 +1,2 @@
-# jsp-servlet-hibernate-mysql
+# jsp-servlet-hibernate-mysql-curd
 CURD with hibernate

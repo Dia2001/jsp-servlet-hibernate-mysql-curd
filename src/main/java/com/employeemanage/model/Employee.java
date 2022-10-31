@@ -34,7 +34,7 @@ public class Employee {
     @Column(name="country")
     protected String country;
     
-    //Thự động tham chiếu và tìm đến bảng phòng ban
+    //https://stackjava.com/hibernate/cascade-trong-jpa-hibernate-la-gi-cac-loai-cascadetype.html
     @OneToOne(cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
     @JoinColumn(name = "departmentid")
     private Department department;
